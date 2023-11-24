@@ -1,0 +1,17 @@
+.switch {
+  background: #343d5b;
+  border-radius: 100px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+}
+.switch span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: #fff;
+}/*# sourceMappingURL=btn.css.map */

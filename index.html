@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/8f8ce55613.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/8f8ce55613.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+ 
+
+</head>
+
+<body>
+  <header>
+
+    <div class="logo">
+      <img src="images/logo.png" href="index.html" alt="logo" class="logo">
+    </div>
+    <section>
+      <div class="carousel" id="carousel">
+        <img src="images/carrousel/3chocos.jpg" alt="tarta de 3 chocolates">
+        <img src="images/carrousel/aranita.jpg" alt="galletas de aranitas">
+        <img src="images/carrousel/brownies.jpg" alt="brownies">
+      </div>
+    </section>
+    <!-- Lista de navegación -->
+       <div class="show" id="abrir">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      <nav id="nav" class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">Inicio</li>
+        <li class="nav-item">Recetas</li>
+        <li class="nav-item">Sobre nosotros</li>
+        <a href="#openModal" class="nav-item1">Contacto</a>
+        <br>
+        <div class="cham" id="cerrar">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </ul>
+      </nav>
+        <button class="switch" id="switch">
+          <span><i class="fa-solid fa-sun"></i></span>
+          <span><i class="fa-solid fa-moon"></i></span>
+        </button>
+       
+    
+  
+    
+      <section id="openModal" class="modalDialog">
+<div>
+        <form action="/enviar" method="post">
+          <div class="inputBox">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          <div class="inputBox">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="inputBox">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+          </div>
+          <div class="inputBox">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" maxlength="200" required></textarea>
+          </div>
+          <button class="button-74" role="button">
+            <a href="index.html"> Contacta!</a>
+          </button>
+        </form>
+</div>
+      </section>
+    </nav>
+  </header>
+
+  <h1 class="titulo">Recetas</h1>
+  <section id="recetas" class="recetas">
+    <section class="item">
+      <h2 class="receta">CheeseCake</h2>
+      <figure>
+        <img src="images/recetas/cheeseCake.jpg" alt="Personality">
+      </figure>
+      <p>
+        Todo el mundo tiene acceso a imágenes de archivo, a los unsplash de turno.
+        Y por eso, cade vez es más necesario tener una personalidad visual propia.
+        Ilustraciones que transmitan una marca de forma única.
+      </p>
+    </section>
+    <section class="item">
+      <h2 class="receta">Coulant</h2>
+      <figure>
+        <img src="images/recetas/coulant.jpg" alt="Personality">
+      </figure>
+      <p>
+        Todo el mundo tiene acceso a imágenes de archivo, a los unsplash de turno.
+        Y por eso, cade vez es más necesario tener una personalidad visual propia.
+        Ilustraciones que transmitan una marca de forma única.
+      </p>
+    </section>
+    <section class="item">
+      <h2 class="receta">Napolitanas</h2>
+      <figure>
+        <img src="images/recetas/napolitana.jpg" alt="Personality">
+      </figure>
+      <p>
+        Todo el mundo tiene acceso a imágenes de archivo, a los unsplash de turno.
+        Y por eso, cade vez es más necesario tener una personalidad visual propia.
+        Ilustraciones que transmitan una marca de forma única.
+      </p>
+    </section>
+    <section class="item">
+      <h2 class="receta">Croissants</h2>
+      <figure>
+        <img src="images/recetas/croasanes.jpg" alt="Personality">
+      </figure>
+      <p>
+        Todo el mundo tiene acceso a imágenes de archivo, a los unsplash de turno.
+        Y por eso, cade vez es más necesario tener una personalidad visual propia.
+        Ilustraciones que transmitan una marca de forma única.
+      </p>
+    </section>
+  </section>
+
+  
+    <footer class="footer">
+      </div>
+      <ul class="social-icon">
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a></li>
+      </ul>
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__link" href="#">Inicio</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Nosotros</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Recetas</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Contacto</a></li>
+  
+      </ul>
+      
+    </footer>
+ 
+ 
+
+  <script src="script.js"></script>
+</body>
+
+</html>
